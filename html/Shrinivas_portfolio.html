@@ -1,135 +1,191 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- meta charset is used to tell the browser what character encoding the page is using -->
     <meta charset="UTF-8" />
     <!-- viewport meta tag is used so that the page adjusts properly on different screen sizes like mobile and laptop -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- title tag shows the name of the page in the browser tab -->
     <title>Shrinivas - Portfolio</title>
-  </head>
+</head>
 
-  <body>
+<section>
     <header>
-      <!-- I used the header tag because this section contains the main introduction of my portfolio-->
-      <!-- h1 is used for my full name since it should be the heading of the page-->
-      <h1>More Shrinivas Balaji</h1>
-      <!-- h2 is used to show my professional title below my name-->
-      <h2>Computer Science and Engineering Student</h2>
-      <!-- Img tag is used to show the profile picture on the portfolio-->
-      <!-- alt text is used so if the image is not available, this text will be shown -->
-      <img src="PROFILE.jpg" alt="Profile Picture" width="150" height="150" />
-      <figcaption>Profile Photo</figcaption>
+        <!-- I used the header tag because this section contains the main introduction of my portfolio-->
+        <!-- h1 is used for my full name since it should be the heading of the page-->
+        <h1>More Shrinivas Balaji</h1>
+        <!-- h2 is used to show my professional title below my name-->
+        <h2>Computer Science and Engineering Student</h2>
+        <!-- Img tag is used to show the profile picture on the portfolio-->
+        <!-- alt text is used so if the image is not available, this text will be shown -->
+        <img src="PROFILE.jpg" alt="Profile Picture" width="150" height="150" />
+        <figcaption>Profile Photo</figcaption>
     </header>
     <!-- nav tag is used to contain the navigation links of the page -->
     <nav>
-      <!-- I used an unordered list to organize the navigation links as menu items -->
-      <ul>
-        <!-- each list item contains a link that navigates to a section of the same page -->
-        <li><a href="#about">About</a></li>
-        <li>
-          Skills
-          <!-- nested list is used to show categories inside the skills section -->
-          <ul>
-            <li><a href="#technical-skills">Technical Skills</a></li>
-            <li><a href="#soft-skills">Soft Skills</a></li>
-          </ul>
-        </li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+        <!-- I used an unordered list to organize the navigation links as menu items -->
+        <ul>
+            <!-- each list item contains a link that navigates to a section of the same page -->
+            <li><a href="#about">About</a></li>
+            <li>
+                Skills
+                <!-- nested list is used to show categories inside the skills section -->
+                <ul>
+                    <li><a href="#technical-skills">Technical Skills</a></li>
+                    <li><a href="#soft-skills">Soft Skills</a></li>
+                </ul>
+            </li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
     <!-- hr tag is used to visually separate the navigation section from the About section -->
     <hr />
     <!-- I used a section tag here to group the content related to the About Me part -->
     <section id="about">
-      <!--h2 is used because this is a main section heading-->
-      <h2>About Me</h2>
-      <!-- paragraph tag is used to describe my professional summary -->
+        <!--h2 is used because this is a main section heading-->
+        <h2>About Me</h2>
+        <!-- paragraph tag is used to describe my professional summary -->
 
-      <p>
-        I am a
-        <!-- strong tag is used to show important information -->
+        <p>
+            I am a
+            <!-- strong tag is used to show important information -->
 
-        <strong>final-year CSE student</strong> at
-        <!-- abbr tag is used so that the full form of NIT appears when hovered -->
+            <strong>final-year CSE student</strong> at
+            <!-- abbr tag is used so that the full form of NIT appears when hovered -->
 
-        <abbr title="National Institute of Technology">NIT</abbr> Andhra Pradesh
-        with a strong interest in
-        <!-- em tag is used to highlight areas of interest -->
-        <em>Machine Learning, Artificial Intelligence, and Data Science</em>. I
-        enjoy working with data to build intelligent systems that can solve
-        real-world problems.
-      </p>
+            <abbr title="National Institute of Technology">NIT</abbr> Andhra Pradesh
+            with a strong interest in
+            <!-- em tag is used to highlight areas of interest -->
+            <em>Machine Learning, Artificial Intelligence, and Data Science</em>. I
+            enjoy working with data to build intelligent systems that can solve
+            real-world problems.
+        </p>
     </section>
     <hr />
     <section>
-      <!-- section is used to group all skills related information -->
-      <h2>Skills</h2>
+        <!-- section is used to group all skills related information -->
+        <h2>Skills</h2>
 
-      <!-- unordered list is used to organize skills into categories -->
-      <ul type="circle">
-        <!-- this item represents technical skills -->
-        <li id="technical-skills">
-          Technical Skills
-          <ul type="disc">
-            <li>
-              Programming Languages
-              <ul>
-                <li>Python</li>
-                <li>SQL</li>
-                <li>Java</li>
-                <li>JavaScript</li>
-              </ul>
+        <!-- unordered list is used to organize skills into categories -->
+        <ul type="circle">
+            <!-- this item represents technical skills -->
+            <li id="technical-skills">
+                Technical Skills
+                <ul type="disc">
+                    <li>
+                        Programming Languages
+                        <ul>
+                            <li>Python</li>
+                            <li>SQL</li>
+                            <li>Java</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        Machine Learning & Data Libraries
+                        <ul>
+                            <li>NumPy</li>
+                            <li>Pandas</li>
+                            <li>Scikit-learn</li>
+                            <li>TensorFlow</li>
+                            <li>Matplotlib</li>
+                            <li>Seaborn</li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        Frameworks & Web Technologies
+                        <ul>
+                            <li>React</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        Tools & Platforms
+                        <ul>
+                            <li>Jupyter Notebook</li>
+                            <li>Google Colab</li>
+                            <li>GitHub</li>
+                            <li>VS Code</li>
+                            <li>Eclipse IDE</li>
+                        </ul>
+                    </li>
+                </ul>
             </li>
 
-            <li>
-              Machine Learning & Data Libraries
-              <ul>
-                <li>NumPy</li>
-                <li>Pandas</li>
-                <li>Scikit-learn</li>
-                <li>TensorFlow</li>
-                <li>Matplotlib</li>
-                <li>Seaborn</li>
-              </ul>
+            <!-- this item represents soft skills -->
+            <li id="soft-skills">
+                Soft Skills
+                <ul type="square">
+                    <li>Problem Solving</li>
+                    <li>Communication</li>
+                    <li>Teamwork</li>
+                    <li>Time Management</li>
+                </ul>
             </li>
-
-            <li>
-              Frameworks & Web Technologies
-              <ul>
-                <li>React</li>
-                <li>HTML</li>
-                <li>CSS</li>
-              </ul>
-            </li>
-
-            <li>
-              Tools & Platforms
-              <ul>
-                <li>Jupyter Notebook</li>
-                <li>Google Colab</li>
-                <li>GitHub</li>
-                <li>VS Code</li>
-                <li>Eclipse IDE</li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-
-        <!-- this item represents soft skills -->
-        <li id="soft-skills">
-          Soft Skills
-          <ul type="square">
-            <li>Problem Solving</li>
-            <li>Communication</li>
-            <li>Teamwork</li>
-            <li>Time Management</li>
-          </ul>
-        </li>
-      </ul>
+        </ul>
     </section>
     <hr />
-  </body>
+    <section id="education">
+        <!-- section tag is used to group all the education related information -->
+        <h2>Education</h2>
+
+        <!-- table tag is used to display education details in rows and columns -->
+        <table border="1">
+
+            <tr>
+                <!-- rowspan is used to merge the header cells across two rows -->
+                <th rowspan="2">Degree</th>
+
+                <!-- colspan is used to divide University into two sub columns -->
+                <th colspan="2">University / Institute</th>
+
+                <th rowspan="2">Year</th>
+                <th rowspan="2">CGPA / Marks (%)</th>
+            </tr>
+
+            <tr>
+                <!-- second header row is used to show sub headings under University -->
+                <th>Institute Name</th>
+                <th>Location</th>
+            </tr>
+
+            <!-- table row for B.Tech details -->
+            <tr>
+                <td>B.Tech</td>
+                <td>NIT Andhra Pradesh</td>
+                <td>Tadepalligudem</td>
+                <td>2026</td>
+                <td>8.45</td>
+            </tr>
+
+            <!-- table row for Intermediate / XII -->
+            <tr>
+                <td>XII</td>
+                <td>Janta Junior College</td>
+                <td>Naigaon, Nanded, Maharashtra</td>
+                <td>2022</td>
+                <td>88.50%</td>
+            </tr>
+
+            <!-- table row for X class -->
+            <tr>
+                <td>X</td>
+                <td>Blue Bells E/M School</td>
+                <td>Naigaon, Nanded, Maharashtra</td>
+                <td>2020</td>
+                <td>92.60%</td>
+            </tr>
+
+        </table>
+    </section>
+    <hr>
+    </body>
+
 </html>
